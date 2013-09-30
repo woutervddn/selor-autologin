@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "One-click UHasselt Login",
+  "description": "This extension is an autolog-on for UHasselt students.",
+  "version": "0.1",
+  "options_page": "options.html",
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'",
+  "permissions": [
+    "https://uhasselt-wifi.uhasselt.be/*"
+  ],
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  }
+}

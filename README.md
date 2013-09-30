@@ -1,4 +1,8 @@
-UHasselt-network-auto-login
-===========================
+VikingSpot / CityLife Authorization WebApp
+=================
 
-A chrome web app / extension that auto logs in a user to the network.
+A Chrome WebApp for the CityLife API that allows you to log in and get a token.
+
+TODO
+====
+- make decent
